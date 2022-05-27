@@ -1,0 +1,42 @@
+
+
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <img src="assets/image/Logs-512.webp" alt="" style="width: 80px; height: 50px;">
+    <!-- <span></span> -->
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <!-- <mat-icon>favorite</mat-icon> -->
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <!-- <mat-icon>share</mat-icon> -->
+    </button>
+    
+  </mat-toolbar>
+  <h2>Click here to check logs!</h2>
+  <span><button mat-raised-button color="primary" class="spacee" (click)="show()">Log Messages</button> </span>
+
+  
+  <h1> Switching Log Levels</h1>
+
+<span><button mat-raised-button color="primary" class="space" (click)="showTrace()">Trace</button> </span>
+<span><button mat-raised-button color="primary" class="space"(click)="showDebug()">Debug</button> </span>
+<span><button mat-raised-button color="primary" class="space" (click)="showInfo()">Info</button> </span>
+<span><button mat-raised-button color="primary" class="space"(click)="showWarn()">Warn</button> </span>
+<span><button mat-raised-button color="primary" class="space" (click)="showError()" >Error</button> </span>
+<span><button mat-raised-button color="primary" class="space" (click)="showOff()">Off</button> </span>
+
+<!-- <h3>
+     {{data1}}
+</h3> -->
+<!-- <h1 mat-dialog-title>Log Level Changed</h1>
+<div mat-dialog-content>
+  {{data1}}
+</div> -->
+
+
+<!-- Experiment -->
+<!-- <button mat-button (click)="openDialog()">Open dialog</button> -->

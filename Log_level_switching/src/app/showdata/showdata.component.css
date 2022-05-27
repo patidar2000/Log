@@ -1,0 +1,32 @@
+.space {
+    width: 10px;
+    height: auto;
+    /* display: inline-block;
+     */
+     margin: 20px;
+     font-variant: small-caps;
+
+  }
+  h1 {
+    color: rgb(9, 10, 11);
+    text-decoration-line: underline;
+    background-color: rgba(193, 189, 209, 0.235);
+    font-variant: small-caps;
+    margin: auto;
+  }
+  .spacee{
+    /* width: px; */
+    /* height: auto; */
+    margin: 21px;
+  }
+  h2 {
+    color:lightslategrey;
+    text-decoration-line:inherit;
+    font-family: "Trirong", serif;
+    
+  }
+
+  h3{
+    text-shadow: 0em;
+    font-family: "Trirong", serif;
+  }

@@ -1,0 +1,12 @@
+2022-04-22 11:24:48,051 INFO  StartupInfoLogger:55 - [] Starting SpringBootLogLevelApplication using Java 17.0.2 on 301230L11 with PID 19760 (C:\Users\aman.patidar\Downloads\SpringBootLogLevel\target\classes started by aman.patidar in C:\Users\aman.patidar\Downloads\SpringBootLogLevel)
+2022-04-22 11:24:48,057 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-04-22 11:24:48,296 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8080 (http)
+2022-04-22 11:24:48,297 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-22 11:24:48,298 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-22 11:24:48,319 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-22 11:24:48,320 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 260 ms
+2022-04-22 11:24:48,396 WARN  ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:106 - [] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-04-22 11:24:48,411 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-04-22 11:24:48,424 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-22 11:24:48,428 INFO  StartupInfoLogger:61 - [] Started SpringBootLogLevelApplication in 0.416 seconds (JVM running for 99.368)
+2022-04-22 11:24:48,431 INFO  ConditionEvaluationDeltaLoggingListener:63 - [] Condition evaluation unchanged
